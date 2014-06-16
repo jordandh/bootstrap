@@ -1,0 +1,24 @@
+{
+  "name": "bootstrap-addons",
+  "version": "1.0.0",
+  "homepage": "https://github.com/jordandh/bootstrap-addons",
+  "authors": [
+    "Jordan Harrison <jordandh@gmail.com>"
+  ],
+  "description": "Additions and modifications to bootstrap 3.",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "javascript",
+    "bootstrap"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
