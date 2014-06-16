@@ -95,4 +95,18 @@ define(['jquery', 'bootstrap'], function ($) {
 
         return false;
     });
+
+    /*
+     * data-dismiss="popover"
+     * Only works if the [data-dismiss="popover"] and [data-toggle="popover"] are descendents of the same .popover-group
+     */
+    $(document).on('click.ui.popover.data-api', '[data-dismiss="popover"]', function () {
+        var $this = $(this);
+
+        if ($this.is('.disabled, :disabled')) {
+            return;
+        }
+
+        $this.closest('.popover-group').find('[data-toggle="popover"]').popover('hide');
+    });
 });
