@@ -9,10 +9,9 @@ A popover-group allows you to write the popover content in your markup alongside
 ```html
 <div class="popover-group">
 	<button class="btn btn-primary" data-toggle="popover" data-placement="bottom">
-		Notes
-		<i class="icon-caret-down"></i>
+		Notes <i class="icon-caret-down"></i>
 	</button>
-	<div class="popover" data-touch-toggle-ignore>
+	<div class="popover">
 		<div class="arrow"></div>
 		<h3 class="popover-static-title"><strong>Notes</strong></h3>
 		<div class="popover-static-content">
