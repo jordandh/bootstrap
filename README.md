@@ -4,7 +4,7 @@ bootstrap
 Additions and modifications to Bootstrap 3.
 
 # popover-group
-A popover-group allows you to write the popover content in your markup alongside the ```css [data-toggle="popover"]``` element.
+A popover-group allows you to write the popover content in your markup alongside the ```[data-toggle="popover"]``` element.
 
 ```html
 <div class="popover-group">
@@ -29,4 +29,4 @@ A popover-group allows you to write the popover content in your markup alongside
 </div>
 ```
 
-No javascript is required to have the popover open when clicking the ```css .popover-group [data-toggle="popover"]``` button. A popover will be shown using the ```css .popover-group .popover```.
+No javascript is required to have the popover open when clicking the ```.popover-group [data-toggle="popover"]``` button. A popover will be shown using the ```.popover-group .popover```.
